@@ -1,0 +1,65 @@
+.BlockTwo{
+    width:50vh;
+    height:500px;
+    margin: 2px;
+}
+.name{
+    border: 2px #277b67;
+    background-color: #198a73;
+    color: aliceblue;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.cost{
+    height:40%;
+    width:100%;
+    border: 2px #277b67;
+    background-color:#1fb08e;
+    color: aliceblue;
+    display: flex;
+}
+
+.currency{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.amount{
+    font-style: bold;
+    position:relative;
+    font-size: 60px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: center;
+}
+.month{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    align-items: flex-end;
+}
+.speed{
+    background-color: #f8f8f8;
+    color:#5b5b5b;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    background-color: #efefef;
+    color:#5b5b5b;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

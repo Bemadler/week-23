@@ -1,0 +1,70 @@
+.BlockThree{
+    width:50vh;
+    height:505px;
+    margin-bottom: 4%;
+    transition: box-shadow 0.3s ease;
+}
+.BlockThree:hover {
+    height:510px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.479); 
+}
+.name{
+    border: 2px #a5545a;
+    background-color:#c5544d;
+    color: aliceblue;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.cost{
+    height:45%;
+    width:100%;
+    border: 2px #a5545a;
+    background-color:#f46a5f;
+    color: aliceblue;
+    display: flex;
+}
+
+.currency{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.amount{
+    font-style: bold;
+    position:relative;
+    font-size: 60px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: center;
+}
+.month{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    align-items: flex-end;
+}
+.speed{
+    background-color: #f8f8f8;
+    color:#5b5b5b;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    background-color: #efefef;
+    color:#5b5b5b;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
