@@ -1,0 +1,111 @@
+
+.Block {
+    width: 50vh;
+    height: 500px;
+    margin-left: 2px;
+}
+.Block:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px yellow;
+    width: 55vh;
+    height: 550px;
+}
+.name {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: aliceblue;
+
+}
+
+.cost {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+}
+
+.currency {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.amount {
+    font-style: bold;
+    position: relative;
+    font-size: 60px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.month {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    align-items: flex-end;
+}
+
+.speed, .information {
+    padding: 2px;
+    margin-bottom: 2px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    color: #5b5b5b;
+}
+
+.information{
+    background-color: #d2cccc87;
+    color: #5b5b5b;
+
+}
+
+.BlockOne .name {
+    border: 2px #328e90;
+    background-color: #1c9dad;
+}
+
+.BlockTwo .name {
+    border: 2px #277b67;
+    background-color: #198a73;
+}
+
+.BlockThree .name {
+    border: 2px #a5545a;
+    background-color: #c5544d;
+}
+
+.BlockFour .name {
+    border: 2px #1a2024;
+    background-color: #232b34;
+}
+
+.BlockOne .cost {
+    border: 2px #328e90;
+    background-color: #36c5ca;
+}
+
+.BlockTwo .cost {
+    border: 2px #277b67;
+    background-color: #1fb08e;
+}
+
+.BlockThree .cost {
+    border: 2px #a5545a;
+    background-color: #f46a5f;
+}
+
+.BlockFour .cost {
+    border: 2px #1a2024;
+    background-color: #303742;
+}

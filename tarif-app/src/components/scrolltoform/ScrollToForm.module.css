@@ -1,0 +1,49 @@
+.ScrollFormInput input{
+    width: 60%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 3px;
+}
+
+.ScrollFormInput input:focus{
+    
+background-color:rgb(213, 181, 244)
+}
+.ScrollFormInput input:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px yellow;
+}
+
+.ScrollFormInput button{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(234, 129, 31);
+}
+.ScrollFormInput{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.ScrollFormInput h2{
+font-style: bold;
+color: rgb(234, 129, 31);;
+}
+
+.BackButton{
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.BackButton button{
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+.BackButton button:hover{
+    background-color: rgb(241, 251, 175);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px yellow;
+}
