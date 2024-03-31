@@ -1,12 +1,12 @@
 
 .Block {
-    width: 50vh;
-    height: 500px;
+    width: 45vh;
+    height: 450px;
     margin-left: 2px;
 }
 .Block:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px yellow;
-    width: 55vh;
+    width: 48vh;
     height: 550px;
 }
 .name {
@@ -41,7 +41,7 @@
     font-size: 60px;
     display: flex;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 35px;
     justify-content: center;
 }
 

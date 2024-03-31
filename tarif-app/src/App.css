@@ -1,19 +1,21 @@
 .App {
   text-align: center;
   display: flex;
-  width: 900px;
+  min-width: 600px;
+  max-width: 300vh;
   height: 100vh;
+  margin-left: 18px;
 }
 .row{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-left:10%;
+
   
 }
 .BlockOne, .BlockTwo, .BlockThree, .BlockFour {
-  margin: 0 10px; 
+  margin: 0 ; 
 }
 
 
